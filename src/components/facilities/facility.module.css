@@ -1,0 +1,54 @@
+.root {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.icon-label-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+
+  padding: 0 10px;
+  height: 24px;
+
+  background: #acc2e8;
+  border-radius: 20px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.label {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.orthogonal-line {
+  position: relative;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 18px;
+  border-left: 1px dashed #acc2e8;
+  z-index: 0;
+}
+
+.dot {
+  position: absolute;
+  left: calc(50% - 8px / 2);
+  bottom: calc(-4px - 1px); /* 원 반지름 + bottom border px */
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background: #acc2e8;
+}

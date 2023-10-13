@@ -1,0 +1,28 @@
+.root {
+    position: relative;
+    top: 0;
+    overflow: auto;
+    width: 20px;
+    height: 52px;
+}
+.stick {
+    position: absolute;
+    top: 2px;
+    left: 9px;
+    width: 1px;
+    height: 10px;
+    background-color: #808080;
+}
+.label {
+    position: absolute;
+    top: 14px;
+    width: 16px;
+    height: 16px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #808080;
+}

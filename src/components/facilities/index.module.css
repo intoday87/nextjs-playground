@@ -1,0 +1,15 @@
+.root {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: auto;
+}
+.house {
+  position: absolute;
+  bottom: 50.7px;
+  left: 23.7px;
+}
+.unit-box {
+  margin: 0 33px 0 44px;
+  height: 52px;
+}
